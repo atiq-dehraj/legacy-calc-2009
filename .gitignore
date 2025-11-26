@@ -11,9 +11,6 @@ test_emi
 build/
 bin/
 
-# Documentation
-docs/
-
 # Environment files
 .env
 *.env
