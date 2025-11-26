@@ -1,0 +1,31 @@
+# Minimal Doxyfile for Loan Calculator Project
+
+# Project information
+PROJECT_NAME           = "Loan Calculator"
+PROJECT_BRIEF          = "A simple EMI calculation system"
+
+# Input sources - both src and test directories
+INPUT                  = src/ test/
+RECURSIVE              = YES
+
+# Output directory
+OUTPUT_DIRECTORY       = docs/
+
+# Output formats
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+# Extract documentation from
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+
+# Source browsing
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+
+# Referencing
+REFERENCES_LINK_SOURCE = YES
+
+# Optimizations for C++
+OPTIMIZE_OUTPUT_FOR_C  = NO
